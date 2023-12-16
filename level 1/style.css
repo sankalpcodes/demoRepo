@@ -1,0 +1,48 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    color: teal;
+    background-color: green; 
+    padding: 10px;
+    border-radius: 8%;
+}
+body{
+    background-color: #F2CD5D;
+}
+
+#id1{
+    color: blue;
+}
+#id2{
+    color: black;
+}
+
+/* #box{
+    background-color: blue;
+} */
+.heading{
+    color: red;
+    text-decoration: dotted underline;
+}
+#h1{
+    font-weight: normal;
+    text-align: center;
+    text-transform: capitalize;
+}
+#h2{
+    font-weight: bold;
+}
+#h3{
+    font-weight: bolder;
+}
+#h2{
+    font-weight: lighter;
+}
+#outer{
+    font-size: 25px;
+};
+#inner{
+    font-size: 10px;
+}

@@ -1,0 +1,21 @@
+div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 20px solid #8b9474;
+    border-top: 20px solid #c1cc99;
+    animation: rotateAni 2s ease-in 0s infinite normal;   
+    display: inline-block;
+    margin: 50%;
+    /* align-items: center;  */
+}
+
+
+@keyframes rotateAni{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,35 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    /* transition: all;
+    transition-duration: 1s;
+    transition-timing-function: steps(5); */
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    animation: colorAnimate 4s ease-in 0s infinite normal;
+   
+}
+
+@keyframes colorAnimate{
+    0%{
+        left: 0px;
+        background-color: yellow;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        left: 200px;
+        background-color: red;
+    }
+}
+
+div:hover{
+    background-color: red;
+    
+
+
+}
